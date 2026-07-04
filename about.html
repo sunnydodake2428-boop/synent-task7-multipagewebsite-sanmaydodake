@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>About — Sanmay Dodake</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="glow glow--blue"></div>
+  <div class="glow glow--cyan"></div>
+
+  <nav class="nav">
+    <span class="nav__logo">EdgeWire<span class="nav__dot">.</span></span>
+    <input type="checkbox" id="navToggle" class="nav__toggle">
+    <ul class="nav__links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html" class="is-active">About</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <div class="nav__cta">
+      <a href="contact.html" class="btn btn--ghost">Let's Talk</a>
+      <label for="navToggle" class="nav__burger"><span></span><span></span><span></span></label>
+    </div>
+  </nav>
+
+  <main>
+    <!-- INTRO -->
+    <section class="section" style="padding-top:5rem;">
+      <div class="wrap about__grid">
+        <div class="reveal">
+          <p class="eyebrow tag">ABOUT ME</p>
+          <h1 class="section__title">
+            Engineer first,<br><span class="grad-text">designer at heart.</span>
+          </h1>
+          <p class="hero__desc" style="margin-top:1.4rem;">
+            I'm a Computer Science &amp; Engineering student who builds full-stack,
+            AI-integrated products — not for class credit, but because I genuinely
+            like shipping things that work.
+          </p>
+          <p class="hero__desc">
+            Based in Kolhapur, Maharashtra, I split my time between coursework,
+            internships, and building my own portfolio of live projects — from
+            agri-tech marketplaces to AI career tools.
+          </p>
+        </div>
+
+        <div class="glass about__panel reveal">
+          <div class="about__row">
+            <span class="tag">LOCATION</span>
+            <span>Kolhapur, Maharashtra, India</span>
+          </div>
+          <div class="about__row">
+            <span class="tag">EDUCATION</span>
+            <span>B.Tech CSE, DY Patil College</span>
+          </div>
+          <div class="about__row">
+            <span class="tag">FOCUS</span>
+            <span>Full Stack + AI Integration</span>
+          </div>
+          <div class="about__row">
+            <span class="tag">STATUS</span>
+            <span>Open to internships &amp; freelance</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- STORY -->
+    <section class="section section--tight">
+      <div class="wrap">
+        <div class="section__head">
+          <p class="eyebrow tag">HOW I GOT HERE</p>
+          <h2 class="section__title">A quick timeline.</h2>
+        </div>
+
+        <div class="timeline stagger">
+          <div class="timeline__item reveal">
+            <div class="timeline__dot"></div>
+            <div>
+              <p class="tag">2024</p>
+              <h3 class="card__title">Started B.Tech CSE</h3>
+              <p class="card__desc">Began exploring web development through college projects and self-learning, starting with plain HTML/CSS builds.</p>
+            </div>
+          </div>
+          <div class="timeline__item reveal">
+            <div class="timeline__dot"></div>
+            <div>
+              <p class="tag">2025 – 2026</p>
+              <h3 class="card__title">Built a portfolio of live projects</h3>
+              <p class="card__desc">Shipped SynapseScape, AgroConnect, SplitPay, NEXUS, and more — moving from tutorials to production-grade, AI-integrated apps.</p>
+            </div>
+          </div>
+          <div class="timeline__item reveal">
+            <div class="timeline__dot"></div>
+            <div>
+              <p class="tag">2026</p>
+              <h3 class="card__title">Internships &amp; freelancing</h3>
+              <p class="card__desc">Took on structured internship programs and started exploring freelance work to apply my skills on real client problems.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="section section--tight">
+      <div class="wrap">
+        <div class="section__head">
+          <p class="eyebrow tag">TOOLKIT</p>
+          <h2 class="section__title">What I build with.</h2>
+        </div>
+
+        <div class="grid-2 stagger">
+          <div class="glass card reveal">
+            <h3 class="card__title">Languages &amp; Frameworks</h3>
+            <div class="pills">
+              <span class="pill">Python</span>
+              <span class="pill">JavaScript</span>
+              <span class="pill">TypeScript</span>
+              <span class="pill">React</span>
+              <span class="pill">Flask</span>
+              <span class="pill">Node.js</span>
+            </div>
+          </div>
+          <div class="glass card reveal">
+            <h3 class="card__title">Tools &amp; Platforms</h3>
+            <div class="pills">
+              <span class="pill">Git &amp; GitHub</span>
+              <span class="pill">Vercel</span>
+              <span class="pill">Supabase</span>
+              <span class="pill">Claude API</span>
+              <span class="pill">Groq API</span>
+              <span class="pill">Tailwind CSS</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="section section--tight">
+      <div class="wrap">
+        <div class="glass cta-band reveal">
+          <div>
+            <h2 class="section__title" style="font-size:clamp(1.6rem,3.5vw,2.2rem)">Want to see what I can build?</h2>
+            <p class="section__desc" style="margin-top:.6rem">Check out the services I offer, or just reach out directly.</p>
+          </div>
+          <a href="services.html" class="btn btn--primary">View Services →</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer__inner">
+      <span class="footer__logo">EdgeWire<span class="nav__dot">.</span> <span class="footer__credit tag">by Sanmay Dodake</span></span>
+      <div class="footer__links">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <span class="tag">© 2026 SANMAY DODAKE</span>
+    </div>
+  </footer>
+
+</body>
+</html>
