@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact — Sanmay Dodake</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="glow glow--blue"></div>
+  <div class="glow glow--cyan"></div>
+
+  <nav class="nav">
+    <span class="nav__logo">EdgeWire<span class="nav__dot">.</span></span>
+    <input type="checkbox" id="navToggle" class="nav__toggle">
+    <ul class="nav__links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="contact.html" class="is-active">Contact</a></li>
+    </ul>
+    <div class="nav__cta">
+      <a href="contact.html" class="btn btn--ghost">Let's Talk</a>
+      <label for="navToggle" class="nav__burger"><span></span><span></span><span></span></label>
+    </div>
+  </nav>
+
+  <main>
+    <section class="section" style="padding-top:5rem;">
+      <div class="wrap contact__grid">
+
+        <div class="reveal">
+          <p class="eyebrow tag">GET IN TOUCH</p>
+          <h1 class="section__title">Let's build <span class="grad-text">something great.</span></h1>
+          <p class="hero__desc" style="margin-top:1.2rem;">
+            Have a project, an internship opportunity, or just want to talk shop?
+            Fill out the form or reach me directly — I usually reply within a day.
+          </p>
+
+          <div class="contact__list">
+            <a href="mailto:sunnydodake2428@gmail.com" class="contact__item glass">
+              <span class="card__icon" style="margin:0;">✉</span>
+              <div>
+                <p class="tag">EMAIL</p>
+                <p>sunnydodake2428@gmail.com</p>
+              </div>
+            </a>
+            <a href="tel:+917499850790" class="contact__item glass">
+              <span class="card__icon" style="margin:0;">☎</span>
+              <div>
+                <p class="tag">PHONE</p>
+                <p>+91 74998 50790</p>
+              </div>
+            </a>
+            <a href="https://www.linkedin.com/in/sanmay-dodake-a705a1342" target="_blank" rel="noopener" class="contact__item glass">
+              <span class="card__icon" style="margin:0;">in</span>
+              <div>
+                <p class="tag">LINKEDIN</p>
+                <p>sanmay dodake</p>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <form class="glass contact-form reveal" action="mailto:sunnydodake2428@gmail.com" method="post" enctype="text/plain">
+          <label class="tag">NAME</label>
+          <input type="text" name="Name" class="input" placeholder="Your name" required>
+
+          <label class="tag">EMAIL</label>
+          <input type="email" name="Email" class="input" placeholder="you@example.com" required>
+
+          <label class="tag">PROJECT TYPE</label>
+          <select class="input" name="Project Type">
+            <option>Full Stack Web App</option>
+            <option>AI Integration</option>
+            <option>Landing Page / Portfolio</option>
+            <option>Something else</option>
+          </select>
+
+          <label class="tag">MESSAGE</label>
+          <textarea class="input" name="Message" rows="4" placeholder="Tell me about your project..." required></textarea>
+
+          <button type="submit" class="btn btn--primary" style="width:100%; justify-content:center; margin-top:0.6rem;">Send Message →</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer__inner">
+      <span class="footer__logo">EdgeWire<span class="nav__dot">.</span> <span class="footer__credit tag">by Sanmay Dodake</span></span>
+      <div class="footer__links">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <span class="tag">© 2026 SANMAY DODAKE</span>
+    </div>
+  </footer>
+
+</body>
+</html>

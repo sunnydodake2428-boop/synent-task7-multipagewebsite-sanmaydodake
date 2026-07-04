@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Services — Sanmay Dodake</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="glow glow--blue"></div>
+  <div class="glow glow--cyan"></div>
+
+  <nav class="nav">
+    <span class="nav__logo">EdgeWire<span class="nav__dot">.</span></span>
+    <input type="checkbox" id="navToggle" class="nav__toggle">
+    <ul class="nav__links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="services.html" class="is-active">Services</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <div class="nav__cta">
+      <a href="contact.html" class="btn btn--ghost">Let's Talk</a>
+      <label for="navToggle" class="nav__burger"><span></span><span></span><span></span></label>
+    </div>
+  </nav>
+
+  <main>
+    <section class="section" style="padding-top:5rem;">
+      <div class="wrap section__head section__head--center" style="max-width:640px; margin-left:auto; margin-right:auto;">
+        <p class="eyebrow tag" style="margin-left:auto;margin-right:auto;">SERVICES</p>
+        <h1 class="section__title">What I can build for you.</h1>
+        <p class="section__desc">From a single landing page to a full AI-integrated product — here's what's on the menu.</p>
+      </div>
+    </section>
+
+    <section class="section section--tight">
+      <div class="wrap grid-2 stagger">
+        <div class="glass card reveal">
+          <div class="card__icon">⚡</div>
+          <h3 class="card__title">Full Stack Web Apps</h3>
+          <p class="card__desc">End-to-end web applications — React/Vite frontends, Node.js or Flask backends, database design, and deployment.</p>
+          <ul class="card__list">
+            <li>React, Next.js, or plain HTML/CSS/JS</li>
+            <li>REST APIs with Node.js or Flask</li>
+            <li>PostgreSQL, Supabase, or SQLAlchemy</li>
+            <li>Deployment on Vercel, Netlify, or Render</li>
+          </ul>
+        </div>
+
+        <div class="glass card reveal">
+          <div class="card__icon">✦</div>
+          <h3 class="card__title">AI Integration</h3>
+          <p class="card__desc">Wiring large language models into real products — not just a chatbot bolted on, but genuinely useful AI features.</p>
+          <ul class="card__list">
+            <li>Claude &amp; Groq API integration</li>
+            <li>AI-powered content, resume, or data tools</li>
+            <li>Prompt design &amp; output refinement</li>
+            <li>Chat assistants tailored to your product</li>
+          </ul>
+        </div>
+
+        <div class="glass card reveal">
+          <div class="card__icon">◆</div>
+          <h3 class="card__title">Landing Pages &amp; Portfolios</h3>
+          <p class="card__desc">Fast, responsive, good-looking single pages — for a product launch, a personal brand, or a small business.</p>
+          <ul class="card__list">
+            <li>Custom design, not templates</li>
+            <li>Mobile-first, fully responsive</li>
+            <li>Smooth animations &amp; micro-interactions</li>
+            <li>SEO-friendly semantic markup</li>
+          </ul>
+        </div>
+
+        <div class="glass card reveal">
+          <div class="card__icon">▣</div>
+          <h3 class="card__title">Bug Fixes &amp; Feature Work</h3>
+          <p class="card__desc">Already have a codebase? I can jump in, understand it, and ship fixes or new features without breaking things.</p>
+          <ul class="card__list">
+            <li>Debugging &amp; performance fixes</li>
+            <li>New feature development</li>
+            <li>Code review &amp; refactoring</li>
+            <li>Legacy code recovery</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROCESS -->
+    <section class="section section--tight">
+      <div class="wrap">
+        <div class="section__head">
+          <p class="eyebrow tag">HOW IT WORKS</p>
+          <h2 class="section__title">A simple, honest process.</h2>
+        </div>
+
+        <div class="process stagger">
+          <div class="process__step reveal">
+            <p class="process__num grad-text">01</p>
+            <h3 class="card__title">Chat</h3>
+            <p class="card__desc">Tell me what you're trying to build. No jargon required — I'll ask the right questions.</p>
+          </div>
+          <div class="process__step reveal">
+            <p class="process__num grad-text">02</p>
+            <h3 class="card__title">Plan</h3>
+            <p class="card__desc">I'll scope it out — timeline, tech stack, and what "done" looks like — before writing a line of code.</p>
+          </div>
+          <div class="process__step reveal">
+            <p class="process__num grad-text">03</p>
+            <h3 class="card__title">Build</h3>
+            <p class="card__desc">Regular updates as I build, so you're never wondering what's happening.</p>
+          </div>
+          <div class="process__step reveal">
+            <p class="process__num grad-text">04</p>
+            <h3 class="card__title">Ship</h3>
+            <p class="card__desc">Deployed, tested, and handed off — with docs so you're not locked into needing me forever.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--tight">
+      <div class="wrap">
+        <div class="glass cta-band reveal">
+          <div>
+            <h2 class="section__title" style="font-size:clamp(1.6rem,3.5vw,2.2rem)">Got a project in mind?</h2>
+            <p class="section__desc" style="margin-top:.6rem">Let's figure out if I'm the right fit for it.</p>
+          </div>
+          <a href="contact.html" class="btn btn--primary">Start a Conversation →</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer__inner">
+      <span class="footer__logo">EdgeWire<span class="nav__dot">.</span> <span class="footer__credit tag">by Sanmay Dodake</span></span>
+      <div class="footer__links">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <span class="tag">© 2026 SANMAY DODAKE</span>
+    </div>
+  </footer>
+
+</body>
+</html>
