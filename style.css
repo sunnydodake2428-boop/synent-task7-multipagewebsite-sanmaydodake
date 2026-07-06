@@ -477,7 +477,6 @@ select.input option{
     background: rgba(5,7,12,0.95); /* solid enough, no blur needed */
   }
 
-
   .nav__links{
     position: fixed;
     inset: 64px 0 0 0;
@@ -494,6 +493,7 @@ select.input option{
     z-index: 500;
   }
   .nav__links a{ padding: 0.9rem 0; width:100%; border-bottom: 1px solid var(--glass-border); }
+  .nav__links a::after{ display: none; }
   .nav__burger{
     display:flex;
     flex-direction: column;
